@@ -1,0 +1,9 @@
+.playlist-content{
+    display: flex;
+    overflow-x: scroll;
+
+}
+
+.btn{
+    margin-bottom: 10px;
+}

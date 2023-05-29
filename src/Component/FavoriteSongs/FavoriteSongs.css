@@ -1,0 +1,110 @@
+.favMusic-wrapper{
+    margin: 5px 0;
+
+}
+
+.favMusic-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.favMusic-header small{
+    font-size: 26px;
+    padding:0 15px;
+}
+
+.favMusic-header h4{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.favMusic-swipper{
+    display: flex;
+    overflow-x: scroll;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100%;
+    border-bottom: .5px solid rgba(0, 0, 0, 0.1);
+
+}
+
+.item{
+    display: flex;
+    padding: 10px 20px;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+    font-size: .95rem;
+    margin-right: 10px;
+}
+
+
+.favSongs-main{
+    display: flex;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.favSongs-icon{
+    font-size: 4rem;
+    opacity: 0.5;
+}
+
+.favSongs-main p{
+    margin: 15px 0;
+    font-size: 1.2rem;
+    word-spacing: 2px;
+}
+
+.favSongs-main button{
+    border-radius:30px;
+    padding:8px  12px;
+    outline: none;
+    border: none;
+    background-color: rgb(82, 169, 82);
+    color: #fff;
+    width: 150px;
+    font-size: 1.2rem;
+}
+
+.card-container {
+  padding: 15px;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-header h4{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.card-header div{
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-header div p{
+    margin-right: 5px;
+}
+
+.card-content {
+  display: flex;
+    flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px 2px;
+  padding: 15px;
+  background-color: #646363;
+  color: #bdbbbb;
+    border-radius: 8px;
+}
+

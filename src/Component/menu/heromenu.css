@@ -1,0 +1,171 @@
+.hero-menu-conatainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 5px; 
+    /* margin-top: 10px; */
+    border: 2px solid blue;
+    background-color: rgb(241, 240, 240);
+
+}
+
+.left-menu-container{
+   width: 35%;
+   height: 220px;
+   margin: 15px 5px;
+   border: 3px solid rgb(146, 9, 82);
+   transition:  .5s ease;
+   
+    
+    
+}
+
+.menu-list{
+    width: 100%;
+    height: 95%;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: var(--primaryColor);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+    /* transition:  .5s ease; */
+    /* border: 3px solid red; */
+   
+    
+    
+    
+}
+
+.navigate-active{
+height: 2px !important;
+/* transition: all 1s ease; */
+
+}
+.hero-search-by-beat,.hero-add-friend,.hero-Search-by-lyrics{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     margin: 5px 0;
+    font-size: 16px;
+    border: 3px solid red;
+    transition: none;
+}
+.hero-list-icon{
+    font-size: 40px;
+    margin-right: 10px;
+    
+}
+
+.navigate-list, .radio-navigate{
+    font-size: 25px;
+}
+.radio-navigate{
+    text-align: center;
+    margin-top: -15px;
+    transition: all 5s ease;
+    cursor: pointer;
+}
+
+@keyframes scroll {
+from{
+
+}
+to{
+
+}
+}
+
+
+.radio-container{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+
+}
+
+.radio-image img{
+    width: 100%;
+    height: 100px;
+    border-radius: 10px;
+}
+
+.radio-title{
+    font-size: 15px;
+    text-align: center;
+    margin: 10px 0;
+    color: var(--primaryColor);
+}
+
+.radio-decs{
+   text-align: center; 
+   font-size: 15px;
+   color: black;
+
+}
+.right-menu--container{
+  /* background-color: red; */
+  width: 65%;
+  height: 200px; 
+  /* border: 2px solid orange; */
+
+}
+
+
+.right-menu-card{
+    /* display: flex;
+    justify-content: space-around;
+    width: 100%;
+    flex-wrap: wrap;
+    margin:0;
+    height: 100px; */
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 80px 80px;
+    gap: 10px;
+    padding: 10px;
+}
+
+/* .right-menu-card div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 70px;
+    height: 100%;
+    margin: 3px 0 10px 0;
+    border-radius: 5px;
+
+  
+} */
+.right-menu-card > div{
+    text-align: center;
+    font-size: 30px;
+    box-shadow:rgba(0,0,0,0.5, );
+    border: 2px solid red;
+    box-sizing: border-box;
+}
+
+
+.radio-icon-1{
+    font-size: 25px;
+    color: var(--primaryColor);
+    margin: 10px 0;
+    
+}
+
+ .radio-title-1{
+    font-size: 13px;
+}  
+
+
+/* .first-card{
+    display: flex;
+    justify-content: space-between;
+} */

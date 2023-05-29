@@ -1,0 +1,44 @@
+.play-container {
+  width: 100%;
+  height: 90vh;
+  margin-bottom: 10px;
+  padding: 0 10px;
+  transition: all 0.5s ease-in-out;
+}
+
+.smaller-container {
+  height: 6vh;
+  padding: 0 10px;
+  width: 100%;
+  margin-bottom: 10px;
+  transition: all 0.3s ease-out;
+}
+
+.playImage-container {
+  width: 50px;
+  height: 100px;
+  margin-right: 10px;
+}
+
+.playImage-container img {
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+}
+.play-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.play-item {
+  display: flex;
+  width: 200px;
+  height: 50px;
+  align-items: flex-start;
+}
+
+.playIcon {
+  font-size: 30px;
+  padding: 5px;
+}

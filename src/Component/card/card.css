@@ -1,0 +1,37 @@
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px 2px;
+  background-color: #646363;
+  color: #bdbbbb;
+  border-radius: 8px;
+  width: 85vw;
+}
+
+.content img {
+  width: 85px;
+  border-radius: 8px;
+  height: 80px;
+  box-shadow: 0 4px 8px 0 rgba(89, 89, 89, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card-info .artist {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: white;
+}
+
+.card-more {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-more .icon {
+  font-size: 1.7rem;
+}
+.card-more .icon2 {
+  font-size: 1.2rem;
+}

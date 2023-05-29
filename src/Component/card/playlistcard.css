@@ -1,0 +1,53 @@
+article{
+    margin-top: 10px;
+}
+
+.single-hotlist-container {
+  width: 130px;
+  height: 175px;
+  position: relative;
+  margin-right: 15px;
+  flex-shrink: 0;
+}
+
+.single-hotlist-container img {
+  width: 100%;
+  height: 130px;
+  border-radius: 10px;
+}
+
+.download {
+  position: absolute;
+  bottom: 36px;
+  right: -2px;
+  font-size: 30px;
+
+  color: var(--primaryColor);
+    background-color: white;
+      border-radius: 50%;
+        border: .5px solid white;
+
+}
+
+.downloads {
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  color: rgb(217, 215, 215);
+  background-color: rgba(0, 0, 0, 0.5);
+  font-size: .6rem;
+  padding:3px 10px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  letter-spacing: 1.5px;
+}
+
+
+.earphone{
+    margin-right: 4px;
+}
